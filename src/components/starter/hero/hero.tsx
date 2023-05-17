@@ -13,7 +13,7 @@ export default component$(() => {
       <div class={styles["button-group"]}>
         <button
           onClick$={async () => {
-            console.log("CLICK");
+            console.log("CLICK 2");
             const response = await fetch("api", {
               method: "GET",
             });
